@@ -3,7 +3,7 @@
 font-family: 'Tahu! Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Tahu! Regular'), url('../Tahu/Tahu!.woff') format('woff');
+src: local('Tahu! Regular'), url('../tahu/Tahu!.woff') format('woff');
 }
 
 body {
