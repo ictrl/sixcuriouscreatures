@@ -1,25 +1,23 @@
-/*!
- * Start Bootstrap - Agency v1.1.1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 @font-face {
-  font-family: "Tahu";
-  src: url("../tahu/Tahu!.ttf") format("truetype") local("Tahu Font"),
-    local("Tahu-Font");
-  src: url("../tahu/Tahu!.otf") format("opentype") local("Tahu Font"),
-    local("Tahu-Font");
+font-family: 'Tahu! Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Tahu! Regular'), url('../Tahu/Tahu!.woff') format('woff');
 }
 
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  
 }
 .text-muted {
   color: #777777;
 }
 .text-primary {
   color: #600b49;
+  font-family:'Tahu! Regular';
+  font-weight:normal;
 }
 p {
   font-size: 14px;
@@ -27,6 +25,8 @@ p {
 }
 p.large {
   font-size: 16px;
+  
+  
 }
 a,
 a:hover,
