@@ -1,23 +1,21 @@
-
 @font-face {
-font-family: 'Tahu! Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Tahu! Regular'), url('../tahu/Tahu!.woff') format('woff');
+  font-family: "Tahu! Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Tahu! Regular"), url("../tahu/Tahu!.woff") format("woff");
 }
 
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
-  
 }
 .text-muted {
   color: #777777;
 }
 .text-primary {
   color: #600b49;
-  font-family:'Tahu! Regular';
-  font-weight:normal;
+  font-family: "Tahu! Regular";
+  font-weight: normal;
 }
 p {
   font-size: 14px;
@@ -25,8 +23,6 @@ p {
 }
 p.large {
   font-size: 16px;
-  
-  
 }
 a,
 a:hover,
@@ -1267,8 +1263,7 @@ slide p {
 
   .bfc-logo {
     margin-top: -25px;
-    width: 0px;
-    height: 132px;
+    height: 142px;
   }
   .tribe {
     font-size: small;
@@ -1277,8 +1272,9 @@ slide p {
     margin-top: 200px;
   }
   .navbar-header {
-    height: 100px;
+    height: 115px;
   }
+
   .navbar-toggle {
     margin-top: 30px;
   }
